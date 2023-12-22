@@ -1,0 +1,490 @@
+[
+  {
+    "category": "React",
+    "infos": [
+      {
+        "title": "Functional component",
+        "content": [
+          "Um Functional Component, recebe esse nome por se tratar de uma função que aceita um único argumento de objeto chamado “props” (propriedades), e retorna dados com um elemento React. Não tem o Hooks"
+        ]
+      },
+      {
+        "title": "Class component ",
+        "content": [
+          "Já um Class Component estende um Component padrão do React, e ao fazer isso, criamos uma herança do React.Component e podemos acessar suas funções, e com o método render retornamos HTML."
+        ]
+      },
+      {
+        "title": "Hooks",
+        "content": [
+          "useState() useState é um dos hooks mais importantes e usados do React, ele lida com dados relativos, ou seja, ele lida com os estados. ",
+          "useEffect() Um dos problemas que os Functional Components tinham era lidar com side-effects como chamadas à API, tarefas assíncronas e outros. ",
+          "useMemo() O hooks useMemo nos permite armazenar o valor de retorno de uma função a partir dos parâmetros recebidos (memoization). Ele nos ajuda a tornar os processamentos mais rápidos, já que só executa a função caso o valor não tenha sido guardado anteriormente. ",
+          "useRef() O useRef nos permite persistir valores entre renderizações, ele pode ser usado para armazenar o valor de uma variável mutável que não provoca uma re-renderização, ou para acessar um elemento DOM diretamente."
+        ]
+      },
+      {
+        "title": "Gerencia de estado - Context Api & Redux",
+        "content": [
+          "A Context API e o Redux são dois métodos populares para gerenciar o estado global em aplicativos React. Ambos fornecem meios de passar dados de forma escalável e fácil de gerenciar, sem a necessidade de passar dados através de componentes de forma explícita.",
+          "A Context API é uma funcionalidade nativa do React que permite criar contextos e fornecer dados a componentes em qualquer lugar da árvore de componentes sem precisar passar dados através de props.",
+          "Redux é uma biblioteca externa que fornece uma abordagem para gerenciar o estado global através do uso de um armazenamento centralizado chamado “store”."
+        ]
+      },
+      {
+        "title": "Componentização",
+        "content": [
+          "Um componente é algo que sozinho tem um sentido, ele pode ser único, ou um conjunto de vários outros componentes, a reutilização de trechos de código; o isolamento de contexto; a legibilidade do código; a redução das tags das páginas e a padronização do projeto.",
+          "Injeção de dependência: Com a injeção de dependências, é possível remover a complexidade dos componentes e torná-los mais independentes e reutilizáveis",
+          "Ciclo de Vida: O Ciclo de vida de componentes funcionais no React é um conjunto de funções de ciclo de vida que são automaticamente chamadas pelo React quando um componente é criado, atualizado ou removido da página."
+        ]
+      },
+      {
+        "title": "O que seria uma SPAs?",
+        "content": [
+          "São aplicações cuja funcionalidade está concentrada em uma única página. Ao invés de recarregar toda a página ou redirecionar o usuário para uma página nova, apenas o conteúdo principal é atualizado de forma assíncrona, mantendo toda a estrutura da página estática."
+        ]
+      },
+      {
+        "title": "O que seria uma Arrow function?",
+        "content": [
+          "Arrow functions, ou na tradução para o português “funções de seta”, são um tipo de sintaxe utilizada para escrever funções de forma mais condensada."
+        ]
+      },
+      {
+        "title": "Typescript",
+        "content": [
+          "Mais conhecido como um superset do Javascript, ou seja, um conjunto de ferramentas, o TypeScript foi criado com o objetivo de incluir recursos que não estão presentes no JS. Por meio dele é possível definir a tipagem estática, parâmetros e retorno de funções."
+        ]
+      },
+      {
+        "title": "Vantagens Typescript",
+        "content": [
+          "O TypeScript apresenta erros no momento da organização, enquanto o JavaScript, no tempo de execução.",
+          "O TypeScript oferece as vantagens da composição estática discricionária: os tipos de TS podem ser adicionados a fatores, capacidades, propriedades e assim por diante.",
+          "O TypeScript sustenta especificamente a composição estática. A composição estática pode ser valiosa para ajudar a arquivar capacidades, explicar a utilização e diminuir a sobrecarga psicológica (dicas de tipo de interface e obtenção de erros esperados de programação contínua).",
+          "O TypeScript é executado em qualquer programa ou motor JavaScript.",
+          "Ferramentas extraordinárias com IntelliSense que fornecem pistas dinâmicas como o código adicional.",
+          "TypeScript ajuda na organização do código.",
+          "O TypeScript tem uma documentação melhor para APIs que está em um estado de harmonia com o código-fonte. Algumas organizações relatam uma diminuição nos bugs quando mudam para o TypeScript."
+        ]
+      },
+      {
+        "title": "Desvantagens Typescript",
+        "content": [
+          "O TypeScript deixa de lado um longo esforço para incorporar o código."
+        ]
+      },
+      {
+        "title": "O que seria uma destructuring typescript (spread operator)?",
+        "content": [
+          "É uma técnica que permite extrair dados de objetos e arrays em variáveis individuais. Isso pode ser útil em muitas situações, especialmente quando você precisa trabalhar com dados complexos, como objetos aninhados ou matrizes multidimensionais."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "CSS e pré-processadores (SASS ou LESS, Stylus)",
+    "infos": [
+      {
+        "title": "SASS: Vantagens em relação ao CSS puro",
+        "content": [
+          "No Sass temos uma forma de escrever um tanto diferente da convencional. É que com Sass não usamos as {} chaves para adicionar as propriedades, precisamos apenas aninhar corretamente os estilos um nível para dentro do seletor. Tornando assim um estilo mais rápido de ser escrito e com a possibilidade de escalar facilmente o código. "
+        ]
+      },
+      {
+        "title": "SCSS",
+        "content": [
+          "O Scss é um tipo de arquivo que aceita a sintaxe tanto do Sass, como vimos no exemplo, como também aceita a sintaxe do CSS puro. "
+        ]
+      },
+      {
+        "title": "Responsividade (media-queries e breakpoints)",
+        "content": [
+          "Media-queries: Uma media query consiste de um media type e pelo menos uma expressão que limita o escopo das folhas de estilo usando media features, tal como largura, altura e cor. Media queries, adicionadas no CSS3, deixam a apresentação do conteúdo adaptado a uma gama especifica de dispositivos não precisando mudar o conteúdo em si. ",
+          "Breakpoints: literalmente falando, são pontos de interrupção. Analisando pelo contexto da CSS, Media Query e Mobile First, são os pontos que a interface do usuário será adaptada para a nova realidade do tamanho de tela, ou densidade de pixels, por exemplo."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "NodeJS",
+    "infos": [
+      {
+        "title": "O que é?",
+        "content": [
+          "O Node.js pode ser definido como um ambiente de execução Javascript server-side. ",
+          "Isso significa que com o Node.js é possível criar aplicações Javascript para rodar como uma aplicação standalone em uma máquina, não dependendo de um browser para a execução, como estamos acostumados.",
+          "O principal motivo de sua adoção é a sua alta capacidade de escala. Além disso, sua arquitetura, flexibilidade e baixo custo, o tornam uma boa escolha para implementação de Microsserviços e componentes da arquitetura Serverless. Inclusive, os principais fornecedores de produtos e serviços Cloud já têm suporte para desenvolvimento de soluções escaláveis utilizando o Node.js.",
+          "A principal característica que diferencia o Node.JS de outras tecnologias, como PHP, Java, C#, é o fato de sua execução ser single-thread. Ou seja, apenas uma thread é responsável por executar o código Javascript da aplicação, enquanto que nas outras linguagens a execução é multi-thread.",
+          "No modelo Node.js, apenas uma thread é responsável por tratar as requisições. Essa thread é chamada de Event Loop, e leva esse nome pois cada requisição é tratada como um evento. O Event Loop fica em execução esperando novos eventos para tratar, e para cada requisição, um novo evento é criado."
+        ]
+      },
+      {
+        "title": "O Express é um framework incrível e possui diversas características que facilitam o desenvolvimento de nossas aplicações. Dentre suas principais características, podemos citar:",
+        "content": [
+          "Possui um sistema de rotas completo",
+          "Possibilita o tratamento de exceções dentro da aplicação",
+          "Permite a integração de vários sistemas de templates que facilitam a criação de páginas web para suas aplicações",
+          "Gerencia diferentes requisições HTTP com seus mais diversos verbos",
+          "Feito para a criação rápida de aplicações utilizando um conjunto pequeno de arquivos e pastas"
+        ]
+      },
+      {
+        "title": "Responsividade (media-queries e breakpoints)",
+        "content": [
+          "Media-queries: Uma media query consiste de um media type e pelo menos uma expressão que limita o escopo das folhas de estilo usando media features, tal como largura, altura e cor. Media queries, adicionadas no CSS3, deixam a apresentação do conteúdo adaptado a uma gama especifica de dispositivos não precisando mudar o conteúdo em si. ",
+          "Breakpoints: literalmente falando, são pontos de interrupção. Analisando pelo contexto da CSS, Media Query e Mobile First, são os pontos que a interface do usuário será adaptada para a nova realidade do tamanho de tela, ou densidade de pixels, por exemplo."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Api",
+    "infos": [
+      {
+        "title": "Rest Api",
+        "content": [
+          "POST: criar dados no servidor;",
+          "GET: leitura de dados no host;",
+          "DELETE: excluir as informações;",
+          "PUT: atualizações de registros."
+        ]
+      },
+      {
+        "title": "Graphql",
+        "content": [
+          "GraphQL significa Graph Query Language, como o nome sugere é uma linguagem de query assim como SQL (Structured Query Language) porém seu uso não envolve implementar banco de dados, mas sim, definir dados seja para API ou servidor."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Acessibilidade",
+    "infos": [
+      {
+        "title": "O que é?",
+        "content": [
+          "A acessibilidade web ajuda pessoas com deficiência a navegarem por um site e a acessarem conteúdos através de ferramentas específicas, como um leitor de tela, ao tornar seu site acessível, você permite que mais pessoas possam interagir com ele e ter uma boa experiência, além de gerar mais tráfego para as suas páginas."
+        ]
+      },
+      {
+        "title": "HTML semântico",
+        "content": [
+          "Atualmente o papel da HTML não é apenas estruturar documentos para a web, mas também descrever o significado do conteúdo presente nesses documentos por meio de tags semânticas. "
+        ]
+      },
+      {
+        "title": "Textos alternativos",
+        "content": [
+          "O texto alternativo é um elemento muito importante para a composição de qualquer imagem. Seja em sites ou em redes sociais, ele é essencial para garantir mais acessibilidade para pessoas cegas ou que dependem de leitores de tela."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Micro Front End",
+    "infos": [
+      {
+        "title": "O que é?",
+        "content": [
+          "Micro Front-end é um estilo arquitetônico que separa uma aplicação de front em várias camadas menores, cada uma sendo responsável por um módulo específico da aplicação, normalmente separadas por domínios ou contextos de uso, permitindo assim, que diferentes times cuidem dessas funcionalidades de forma independente."
+        ]
+      },
+      {
+        "title": "Vantagens",
+        "content": [
+          "Mais facilidade na correção de bugs",
+          "Facilidade na integração de novas pessoas no projeto",
+          "Mais facilidade de implementação de novas features",
+          "Facilidade na coordenação entre times",
+          "Times mais independentes"
+        ]
+      },
+      {
+        "title": "Desvantagens",
+        "content": [
+          "Complexidade na instalação",
+          "Caso as equipes não estejam alinhadas em layout e componentes, pode haver desavensas no estilo dos componente das páginas"
+        ]
+      },
+      {
+        "title": "Single-spa e Server Side Rendering",
+        "content": [
+          "Single-spa biblioteca para integração do micro front end",
+          "Server Side Rendering redenrização das páginas pelo back end"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Testes",
+    "infos": [
+      {
+        "title": "O que são testes unitários de front-end?",
+        "content": [
+          "Os testes unitários de front-end são uma prática essencial no desenvolvimento de software. Eles consistem em testar individualmente as unidades de código do front-end, como funções, componentes e módulos, de forma isolada. Esses testes garantem que cada unidade do front-end funcione corretamente e de acordo com as especificações definidas."
+        ]
+      },
+      {
+        "title": "Por que os testes unitários de front-end são importantes?",
+        "content": [
+          "Os testes unitários de front-end são importantes por diversos motivos. Primeiramente, eles ajudam a garantir que cada unidade do front-end esteja funcionando corretamente. Isso é especialmente importante em projetos de grande escala, nos quais várias pessoas estão trabalhando no código ao mesmo tempo.",
+          "Além disso, os testes unitários de front-end facilitam a detecção de problemas e erros antes que eles se propaguem para outras partes do sistema. Isso reduz o tempo e o esforço necessário para encontrar e corrigir essas falhas, tornando o processo de desenvolvimento mais eficiente."
+        ]
+      },
+      {
+        "title": "Test unitários (Jest, react-testing-library) ",
+        "content": [
+          "O teste unitário consiste em verificar o comportamento das menores unidades em sua aplicação"
+        ]
+      },
+      {
+        "title": "Test end-to-end ",
+        "content": [
+          "End-to-end (de ponta a ponta) é uma cadeia de processos integrados do início ao fim, com o objetivo de entregar uma solução fluida e funcional."
+        ]
+      },
+      {
+        "title": "Single-spa e Server Side Rendering",
+        "content": [
+          "Single-spa biblioteca para integração do micro front end",
+          "Server Side Rendering redenrização das páginas pelo back end"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Versionadores de código",
+    "infos": [
+      {
+        "title": "O que é Git?",
+        "content": [
+          "Estes sistemas de controle possuem a função de registrar quaisquer alterações feitas em cima de um código, armazenando essas informações e permitindo que, caso seja necessário, um(a) programador(a) possa regredir a versões anteriores de uma aplicação de modo simples e rápido.",
+          "Este tipo de sistema também simplifica muito o processo de compartilhamento de um projeto com um time, por exemplo, ou com outros(as) programadores(as)."
+        ]
+      },
+      {
+        "title": "Aplicações",
+        "content": ["git"]
+      },
+      {
+        "title": "Ferramentas",
+        "content": ["github", "azure", "bitbucket", "gitlab"]
+      },
+      {
+        "title": "Comandos do Git",
+        "content": [
+          "Git clone: Git clone é uma comando para baixar o código-fonte existente de um repositório remoto (como, por exemplo, o Github). Em outras palavras, git clone, basicamente, faz uma cópia idêntica da versão mais recente de um projeto em um repositório e a salva em seu computador.",
+          "Git branch: Branches (algo como ramificações, em português) são altamente importantes no mundo do git. Usando as branches, vários desenvolvedores conseguem trabalhar em paralelo no mesmo projeto simultaneamente. Podemos usar o comando git branch para criar, listar e excluir as branches.",
+          "Git checkout: Esse também é um dos comandos do Git mais usados. Para trabalhar em uma branch, primeiro, é preciso entrar nela. Usamos git checkout, na maioria dos casos, para trocar de uma branch para outra. Também podemos usar o comando para fazer o checkout de arquivos e commits.",
+          "Git status: O comando git status nos dá todas as informações necessárias sobre a branch atual.",
+          "Git add: Precisamos usar o comando git add para incluir as alterações de um ou vários arquivos em nosso próximo commit.",
+          "Git commit: Talvez esse seja o comando mais usado do Git. Quando chegamos a determinado ponto em desenvolvimento, queremos salvar nossas alterações (talvez após uma tarefa ou resolução de problema específica).",
+          "Git push: Após fazer o commit de suas alterações, a próxima coisa a fazer é enviar suas alterações ao servidor remoto. Git push faz o upload dos seus commits no repositório remoto.",
+          "Git pull: O comando git pull é usado para obter as atualizações de um repositório remoto. Esse comando é uma combinação de git fetch e git merge, o que significa que, quando usamos git pull, ele recebe as atualizações do repositório remoto (git fetch) e aplica imediatamente as alterações mais recentes em seu espaço de trabalho local (git merge).",
+          "Git revert: Às vezes, precisamos desfazer as alterações que fizemos. Existem várias maneiras de se desfazer as alterações em nosso espaço de trabalho local ou remotamente (dependendo do que você necessita), mas devemos usar esses comandos com cuidado para evitar exclusões indesejadas.",
+          "Git merge: Quando você concluir o desenvolvimento em sua branch e quando tudo funcionar bem, a etapa final é fazer o merge (mesclar ou unir, em português) da branch com a branch pai (dev ou master/main, em geral). Isso é feito com o comando git merge."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Desenvolvimento ágil",
+    "infos": [
+      {
+        "title": "O que é o Scrum?",
+        "content": [
+          "O Scrum é uma estrutura ágil (da metodologia Agile) que ajuda as equipes a colaborar e realizar trabalho de alto impacto. A estrutura do Scrum oferece os valores, funções e diretrizes para ajudar a sua equipe a se concentrar na iteração e na melhoria constante.",
+          "Tradicionalmente, o Scrum ocorre em um sprint, que em geral consiste em sessões de trabalho de duas semanas com entregáveis específicos a serem apresentados ao final. Há dois outros momentos contemplados pelo Scrum. Os encontros diários, como o nome já diz, acontecem uma vez ao dia. Trata-se de uma oportunidade para que a equipe do Scrum interaja por 15 minutos e coordene as atividades diárias. O segundo momento, a retrospectiva, ocorre ao fim do sprint. Nesse evento, conduzido pelo mestre do Scrum, a equipe tem a oportunidade de refletir sobre o sprint e propor ajustes para sprints futuros."
+        ]
+      },
+      {
+        "title": "Momentos comuns do Scrum",
+        "content": [
+          "Organização do backlog. Para começar um sprint do Scrum, o líder da sua equipe (também conhecido como mestre do Scrum) identificará os trabalhos a serem extraídos do seu backlog, ou seja, o trabalho que precisa ser feito. Para fazer o melhor sprint de Scrum possível, você precisa ter documentado o backlog do produto de modo claro em um único lugar. Considere usar uma ferramenta de gestão de projetos para coletar toda essa informação.",
+          "Realizar uma sessão de planejamento do sprint. Antes de começar o sprint do Scrum, você precisa saber o que deverá enfocar. Durante a sessão de planejamento do sprint, você avaliará o trabalho do backlog em que a sua equipe precisará se concentrar neste sprint específico do Scrum. Para começar, experimente os nossos modelos grátis para planejamento de sprints.",
+          "Início do sprint do Scrum. Comumente, um sprint leva duas semanas, contudo pode-se ter sprints mais curtos ou mais longos, dependendo do que for melhor para a sua equipe. Durante o sprint, ela trabalhará nos itens do backlog listados durante a sessão de planejamento do sprint.",
+          "Realização de encontros diários do Scrum. Planeje reuniões diárias de 15 minutos com a sua equipe do Scrum. Esses encontros diários são a sua chance de informar os projetos em que vocês estão trabalhando e identificar bloqueios inesperados que vocês encontraram. Para realizar um encontro diário da maneira mais eficaz possível, experimente o nosso modelo grátis para encontros diários.",
+          "Apresentação do trabalho durante a revisão do sprint. Depois de concluir o sprint do Scrum, a sua equipe deve-se reunir para realizar uma revisão do sprint. Durante essa ocasião, a equipe do Scrum apresentará o trabalho que estiver “Feito” para a aprovação ou inspeção dos participantes.",
+          "Interações e reflexões durante a retrospectiva do sprint. Após a conclusão do sprint, dedique algum tempo para discutir como ele correu e o que pode ser melhorado no futuro. Lembre-se de que o Scrum depende de um processo de melhoria contínua, por isso não tenha medo de experimentar novos processos ou estratégias de retrabalho que aparentem ser menos eficazes no seu próximo sprint. Experimente o nosso modelo grátis de retrospectiva de sprint para orientar a sua próxima reunião."
+        ]
+      },
+      {
+        "title": "O que é Kanban?",
+        "content": [
+          "Baseado em referências visuais, cartões geralmente coloridos (como post-its) são inseridos em murais ou quadros de tarefas, descrevendo as atividades que precisam ser feitas, as que estão sendo feitas e as que estão concluídas.",
+          "Quando um cartão é movido para a coluna de incumbências pendentes, ele está pronto para ser trabalhado pela equipe. Vale destacar ainda que, em um sistema Kanban, a prioridade é definida pela ordem dos cartões, sendo o primeiro o mais importante.",
+          "No Kanban, os processos são executados e entregues conforme a ordem de prioridade/necessidade. A prioridade é definida pela ordem de listagem das tarefas. Por outro lado, no Scrum, as entregas são divididas em Sprints de um período de tempo predefinido."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Desenvolvimento CrossBrowser",
+    "infos": [
+      {
+        "title": "Web kit",
+        "content": [
+          "WebKit é um motor de renderização utilizado em navegadores web para renderizar páginas. ( -webkit para o Chrome e o Safari, -moz para o Firefox, -o para o Opera, -ms para o Internet Explorer).",
+          "Por existirem muitos navegadores, e cada um com sua especificação, às vezes é necessário adicionar esses prefixos para que um estilo CSS funcione em todos."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Qualidade",
+    "infos": [
+      {
+        "title": "Sonarqube",
+        "content": [
+          "SonarQube é uma ferramenta para garantir a qualidade do código fonte em desenvolvimento.",
+          "Ele realiza diversas análises durante o processo de compilação da aplicação, detectando por exemplo:",
+          "Trechos de código fonte que possam gerar bugs",
+          "Duplicidade de linhas de comando, prevenindo a repetição de instruções desnecessárias",
+          "Segurança"
+        ]
+      },
+      {
+        "title": "Datadog",
+        "content": [
+          "É uma ferramenta de monitoramento e análise para equipes de tecnologia da informação (TI) e DevOps que pode ser usada para determinar métricas de desempenho, bem como monitoramento de eventos para infraestrutura e serviços em nuvem. O software pode monitorar serviços como servidores, bancos de dados e ferramentas.",
+          "Fornece a uma equipe de TI / DevOps uma visão única de sua infraestrutura (incluindo servidores, aplicativos, métricas e outros serviços).",
+          "Painéis personalizáveis.",
+          "Alertas com base em problemas críticos.",
+          "Coleta e análise automática de registros, latência e taxas de erro.",
+          "Permite acesso à API.",
+          "Suporta aplicativos escritos em linguagens como Java, Python, PHP, .NET, Go, Node e Ruby."
+        ]
+      },
+      {
+        "title": "Fortify",
+        "content": [
+          "é um analisador estático de código fonte, cuja inteligência se resume nas regras desenvolvidas pela Fortify para encontrar furos de codificação, distribuídas dentre as seguintes abordagens de análise:",
+          "Estrutural - Detecta uso de funções e APIs potencialmente perigosas.",
+          "Semântica - Detecta furos potencialmente danosos na estrutura ou definição do programa. Por exemplo, uma atribuição de variáveis em Servlets, uso de loggers que não são declarados como static final.",
+          "Fluxo de Controle - Detecta sequência de operações potencialmente perigosas. Isso remete à visualização análise de sequência de execução das operações, para verificar se alguma delas a aplicação é exposta a vulnerabilidades. Ex. Abrir uma conexão com banco de dados e não fechá-la, pode expor a aplicação à uma sobrecarga por não alocação de recursos."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "WordPress",
+    "infos": [
+      {
+        "title": "O que é o WordPress?",
+        "content": [
+          "O WordPress é, basicamente, um CMS (Content Management System), que em português significa Sistema de Gerenciamento de Conteúdo. ",
+          "Em outras palavras, é um sistema usado para administrar sites, blogs, lojas virtuais, portais de notícia, áreas de membros e outros tipos de página.",
+          "A proposta do WordPress é justamente democratizar o desenvolvimento de blogs profissionais a grandes sites para quem tem uma empresa, projeto, portfólio ou qualquer outra ideia."
+        ]
+      },
+      {
+        "title": "Quais são suas vantagens?",
+        "content": [
+          "Uso intuitivo: você não precisa dominar códigos de programação!",
+          "Instalação fácil",
+          "Troca de templates sem alterar o conteúdo",
+          "Utilização em dispositivos móveis",
+          "Sistema de código aberto"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "WebPack",
+    "infos": [
+      {
+        "title": "O que é?",
+        "content": [
+          "WebPack é um empacotador de módulos criado para agrupar arquivos JavaScript que estão sendo usados em um navegador."
+        ]
+      },
+      {
+        "title": "Qual a utilização?",
+        "content": [
+          "Uma funcionalidade importante é transformar, agrupar ou empacotar qualquer recurso. Eles são direcionados para um gráfico de dependência. "
+        ]
+      },
+      {
+        "title": "Entry",
+        "content": [
+          "Ele indica qual módulo deve ser usado para iniciar a construção do gráfico de dependência. Assim, com um ponto definido, o próprio programa encontra as dependências e realiza uma importação."
+        ]
+      },
+      {
+        "title": "Output",
+        "content": [
+          "Esse princípio se refere ao nome e local onde um pacote ficará. Para isso, é preciso definir as propriedades Path e Filename."
+        ]
+      },
+      {
+        "title": "Loaders",
+        "content": [
+          "Esse recurso existe para que o WebPack leia outros arquivos, além do JavaScript. Portanto, é preciso ter Loaders instalados separadamente.",
+          "Mas, além disso, os Loaders também podem ser usados para converter JavaScript de uma versão para outra.",
+          "Basicamente, há duas propriedades obrigatórias, que são a “test”, que define quais serão os arquivos a serem filtrados, e a “use”, que identifica qual módulo deve ser usado."
+        ]
+      },
+      {
+        "title": "Pontos positivos",
+        "content": [
+          "Velocidade no processamento",
+          "Ampla comunidade para tirar dúvidas",
+          "Facilidade na eliminação de ativos mortos",
+          "Facilidade na divisão de códigos"
+        ]
+      },
+      {
+        "title": "Pontos negativos",
+        "content": [
+          "Configuração complexa",
+          "Código-fonte complexo",
+          "Dificuldade na manutenção"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Cloud Computing",
+    "infos": [
+      {
+        "title": "O que é AWS?",
+        "content": [
+          "A AWS (Amazon Web Services) é uma das maiores plataformas de nuvem do mundo. Ela oferece infraestrutura confiável e escalável e um excelente contingente de datacenters — são 80 zonas de disponibilidade em 25 regiões do globo.",
+          "Criada em 2006, atualmente ela oferece mais de 200 soluções e já atendeu a milhões de clientes. Sem dúvidas, a extensa gama de serviços é um dos pontos que ganha destaque na AWS. Alguns deles são:",
+          "Arquivamento",
+          "Backup e restauração",
+          "Blockchain",
+          "Migração para a nuvem",
+          "Internet das coisas",
+          "Nuvem híbrida",
+          "Hospedagem de sites"
+        ]
+      },
+      {
+        "title": "O que é Azure?",
+        "content": [
+          "É o serviço de gerenciamento de dados na nuvem da Microsoft. Inclusive, um dos principais diferenciais dessa plataforma é a sua capacidade de integração com outros produtos da empresa, como o Windows Server e o SQL Server.",
+          "A plataforma Azure foi lançada em 2010, mas também já está presente em várias regiões do mundo (apesar de ainda não alcançar a concorrência nesse aspecto). Os datacenters estão disponíveis na China, na Indonésia, no Brasil, nos Estados Unidos, entre outras áreas.",
+          "Conheça alguns serviços oferecidos:",
+          "Desenvolvimento e teste de plataformas",
+          "Migração para nuvem",
+          "Blockchain",
+          "Nuvem híbrida",
+          "Análise de escala",
+          "Bancos de dados gerenciados"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "",
+    "infos": [
+      {
+        "title": "",
+        "content": [""]
+      }
+    ]
+  }
+]
